@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <sys/time.h>
 
 static const char* advices[] = {
 	"Будь высокомерен!",
@@ -15,7 +16,11 @@ static const char* advices[] = {
 
 int main()
 {
-	srand(time(NULL));
+	struct timeval time;
+	gettimeofday(&time,NULL);
+
+	/* srand(time(NULL)); */
+	srand((time.tv_sec * 1000) + (time.tv_usec / 1000));
 
 	int idx = sizeof(advices)/sizeof(advices[0]) * ((double)rand() / RAND_MAX);
 	printf("%s\n", advices[idx]);
