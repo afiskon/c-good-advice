@@ -1,6 +1,6 @@
 # c-good-advice
 
-A good free advice from @afiskon every day!
+A good free advice from [@afiskon](https://github.com/afiskon) every day!
 
 Hint: add to your ~/.bashrc:
 
