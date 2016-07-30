@@ -1,3 +1,3 @@
 #!/bin/sh
 
-gcc advice.c -o advice
+gcc -std=c99 -O2 advice.c -o advice

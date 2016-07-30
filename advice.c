@@ -4,12 +4,14 @@
 
 static const char* advices[] = {
 	"Будь высокомерен!",
-
+	"Кто не любит одиночества, тот не любит свободы.",
 };
 
 int main()
 {
-	int idx = 0;
+	srand(time(NULL));
+
+	int idx = sizeof(advices)/sizeof(advices[0]) * ((double)rand() / RAND_MAX);
 	printf("%s\n", advices[idx]);
 	return 0;
 }
