@@ -20,8 +20,8 @@ static const char* advices[] = {
 
 
 unsigned int
-hash(const char *data, const size_t data_len) {
-	unsigned int hash = 31337;
+hash(const unsigned char *data, const size_t data_len) {
+	unsigned int hash = 0x4841434B;
 	for(int i = 0; i < data_len; i++) {
 		hash = ((hash << 5) + hash) + data[i];
 	}
@@ -35,7 +35,7 @@ main()
 	gettimeofday(&time, NULL);
 
 	/* srand((time.tv_sec * 1000) + (time.tv_usec / 1000)); */
-	srand(hash((const char*)&time, sizeof(time)));
+	srand(hash((const unsigned char*)&time, sizeof(time)));
 
 	int idx = (sizeof(advices)/sizeof(advices[0])) * (((double)rand()) / ((double)RAND_MAX));
 	printf("%s\n", advices[idx]);
