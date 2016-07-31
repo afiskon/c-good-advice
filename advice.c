@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <time.h>
 #include <sys/time.h>
 
 static const char* advices[] = {
@@ -17,15 +16,26 @@ static const char* advices[] = {
 	"Кто ты? Чего ты хочешь?",
 };
 
-int main()
+
+unsigned int
+hash(const char *data, const size_t data_len) {
+	unsigned int hash = 31337;
+	for(int i = 0; i < data_len; i++) {
+		hash = ((hash << 5) + hash) + data[i];
+	}
+	return hash;
+}
+
+int
+main()
 {
-	struct timeval time;
-	gettimeofday(&time,NULL);
+	struct timeval time = {0};
+	gettimeofday(&time, NULL);
 
-	/* srand(time(NULL)); */
-	srand((time.tv_sec * 1000) + (time.tv_usec / 1000));
+	/* srand((time.tv_sec * 1000) + (time.tv_usec / 1000)); */
+	srand(hash((const char*)&time, sizeof(time)));
 
-	int idx = sizeof(advices)/sizeof(advices[0]) * ((double)rand() / RAND_MAX);
+	int idx = (sizeof(advices)/sizeof(advices[0])) * (((double)rand()) / ((double)RAND_MAX));
 	printf("%s\n", advices[idx]);
 	return 0;
 }
