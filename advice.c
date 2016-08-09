@@ -43,7 +43,8 @@ static const char* advices[] = {
 	"Тише едешь - дальше будешь.",
 	"Не грузи окружающих!",
 	"RTFM",
-	"La gente está muy loca",
+	"La gente está muy loca.",
+	"Performance is not a problem.",
 };
 
 
