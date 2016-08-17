@@ -48,6 +48,7 @@ static const char* advices[] = {
 	"YAGNI",
 	"La gente está muy loca.",
 	"Performance is not a problem.",
+	"Смотри на мир шире!",
 };
 
 
