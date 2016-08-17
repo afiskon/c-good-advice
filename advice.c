@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include <sys/time.h>
+
+#define VERSION "0.1"
 
 static const char* advices[] = {
 	"Будь высокомерен!",
@@ -62,9 +65,25 @@ hash(const unsigned char *data, const size_t data_len) {
 }
 
 int
-main()
+main(int argc, char* argv[])
 {
 	struct timeval time = {0};
+
+	if(argc > 1)
+	{
+		if((strcmp(argv[1], "-v") == 0) || (strcmp(argv[1], "--version") == 0))
+		{
+			printf(
+				"advice v" VERSION "\n"
+				"(c) Aleksander Alekseev 2016 | http://eax.me/\n"
+			);
+			return 0;
+		} else {
+			fprintf(stderr, "Usage: %s [-v|--version]\n", argv[0]);
+			return 1;
+		}
+	}
+
 	gettimeofday(&time, NULL);
 
 	/* srand((time.tv_sec * 1000) + (time.tv_usec / 1000)); */
