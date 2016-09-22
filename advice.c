@@ -89,7 +89,7 @@ main(int argc, char* argv[])
 	/* srand((time.tv_sec * 1000) + (time.tv_usec / 1000)); */
 	srand(hash((const unsigned char*)&time, sizeof(time)));
 
-	int idx = (sizeof(advices)/sizeof(advices[0])) * (((double)rand()) / ((double)(RAND_MAX+1)));
+	int idx = (sizeof(advices)/sizeof(advices[0])) * (((double)rand()) / ((double)RAND_MAX+1.0));
 	printf("%s\n", advices[idx]);
 	return 0;
 }
