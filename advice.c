@@ -52,6 +52,7 @@ static const char* advices[] = {
 	"La gente está muy loca.",
 	"Performance is not a problem.",
 	"Смотри на мир шире!",
+	"To improve is to change; to be perfect is to change often.",
 };
 
 
