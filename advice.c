@@ -47,7 +47,7 @@ main(int argc, char* argv[])
         {
             printf(
                     "advice v" VERSION "\n"
-                    "(c) Aleksander Alekseev 2016 | http://eax.me/\n"
+                    "(c) Aleksander Alekseev 2016-2017 | http://eax.me/\n"
                   );
             return 0;
         } else {
