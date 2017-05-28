@@ -6,39 +6,22 @@
 #define VERSION "0.2"
 
 static const char* advices[] = {
-	"Будь собой.",
-	"Будь высокомерен.",
-	"Кто не любит одиночества, тот не любит свободы.",
-	"Не давай загрузить тебя.",
-	"Получай от жизни удовольствие.",
-	"Борись за свою свободу.",
-	"Кто не ебашит, не добивается результата.",
-	"Люди отдали бы все, чтобы быть на твоем месте.",
-	"Не дай обществу сломить тебя.",
-	"Кто ты? Чего ты хочешь?",
-	"Не позволяй манипулировать тобой.",
-	"Не бойся загадок. Ты сам - загадка.",
-	"А куда вы так спешите?",
-	"Время - ресурс ограниченный и невосполнимый.",
-	"Красивые решения никому не нужные, если они не работают.",
-	"Хорошая программа сегодня - лучше, чем идеальная через год.",
-	"Следи за здоровьем.",
-	"Наша работа во тьме......",
-	"Потому ты и опасен, что овладел своими страстями.",
-	"Подавляй эмоции.",
-	"В любой непонятной ситуации оставайся спокоен.",
-	"Используй мозг.",
-	"От этого еще никто не умирал.",
-	"А зачем это тебе?",
-	"Ты ничего не должен.",
-	"Делай что должен, и случится чему суждено.",
-	"Не грузи окружающих.",
-	"Смотри на мир шире.",
-	"Я, пожалуй, пойду. Как-то у вас тут суетно.",
+	"Be yourself.",
+	"A man can be himself only so long as he is alone, "
+      "and if he does not love solitude, he will not love freedom, "
+      "for it is only when he is alone that he is really free.",
+	"Who are you? What do you want?",
+	"A second chance! That’s the delusion. There never was to be but one. "
+      "We work in the dark - we do what we can - we give what we have. "
+      "Our doubt is our passion, and our passion is our task. "
+      "The rest is the madness of art.",
+	"And that's why you are dangerous. You've mastered your passions.",
+	"Say what you know, do what you must, come what may.",
 	"KISS",
 	"DRY",
 	"Performance is not a problem.",
 	"To improve is to change; to be perfect is to change often.",
+	"If you can't hack it you don't own it.",
 };
 
 
