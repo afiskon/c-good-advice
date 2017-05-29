@@ -24,6 +24,8 @@ static const char* advices[] = {
     "Performance is not a problem.",
     "To improve is to change; to be perfect is to change often.",
     "If you can't hack it you don't own it.",
+    "Where other men blindly follow the truth, remember, nothing is true. "
+        "Where other men are limited by morality or law, remember, everything is permitted.",
 };
 
 
