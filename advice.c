@@ -26,6 +26,15 @@ static const char* advices[] = {
     "If you can't hack it you don't own it.",
     "Where other men blindly follow the truth, remember, nothing is true. "
         "Where other men are limited by morality or law, remember, everything is permitted.",
+    "Know the rules well, so you can break them effectively.",
+    "Choose to be optimistic, it feels better.",
+    "One great question underlies our experience, whether we think about it or "
+        "not: what is the purpose of life? ... From the moment of birth every "
+        "human being wants happiness and does not want suffering. Neither social "
+        "conditioning nor education nor ideology affects this. From the very core of "
+        "our being, we simply desire contentment ... Therefore, it is important to "
+        "discover what will bring about the greatest degree of happiness.",
+    "Share your knowledge. It is a way to achieve immortality.",
 };
 
 
