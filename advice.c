@@ -37,6 +37,7 @@ static const char* advices[] = {
     "Share your knowledge. It is a way to achieve immortality.",
     "There are two kinds of designs in this world: those that are useful, "
         "and those that you can formally prove to be correct.",
+    "What I cannot create I do not understand.",
 };
 
 
