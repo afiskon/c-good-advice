@@ -12,4 +12,4 @@ advice
 
 ![Good advice](https://raw.githubusercontent.com/afiskon/c-good-advice/master/advice.png?20170528)
 
-Crossplatform Python version of cowsay [could be found here](https://github.com/afiskon/archlinux-on-desktop/blob/master/home/eax/bin/cowsay).
+Crossplatform Python version of cowsay [can be found here](https://github.com/afiskon/archlinux-on-desktop/blob/master/home/eax/bin/cowsay).
