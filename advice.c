@@ -39,6 +39,7 @@ static const char* advices[] = {
         "and those that you can formally prove to be correct.",
     "What I cannot create I do not understand.",
     "The best way to learn is by making mistakes.",
+    "I would't like to be in your shoes, Connor. What could be worse than having to choose between two evils?",
 };
 
 
