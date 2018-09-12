@@ -54,7 +54,7 @@ hash(const unsigned char *data, const size_t data_len) {
     return hash;
 }
 
-    int
+int
 main(int argc, char* argv[])
 {
     struct timeval time = {0};
