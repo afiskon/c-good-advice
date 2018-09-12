@@ -41,6 +41,7 @@ static const char* advices[] = {
     "The best way to learn is by making mistakes.",
     "I would't like to be in your shoes, Connor. What could be worse than having to choose between two evils?",
     "Keep your expectations low boy, and you'll never be disappointed.",
+    "Success is not final, failure is not fatal: it is the courage to continue that counts.",
 };
 
 
